@@ -826,24 +826,24 @@
   // selectionSorting([3,4,6,2,1,50])
 }
 
-// Remove duplicate from array 
+// Remove duplicate from array
 {
-// function removeDuplicate(arr){
-//   if(arr.length === 0 || arr.length === 1){
-//     return "Don't have any duplicate value"
-//   }
-//   let newArray = []
-//   for(let i=0; i<arr.length; i++){
-//     if(newArray.includes(arr[i])){
-//       ''
-//     }
-//     else{
-//       newArray.push(arr[i])
-//     }
-//   }
-//   return newArray
-// }
-// console.log(removeDuplicate([1,2,2,3,6,2,4,5]))
+  // function removeDuplicate(arr){
+  //   if(arr.length === 0 || arr.length === 1){
+  //     return "Don't have any duplicate value"
+  //   }
+  //   let newArray = []
+  //   for(let i=0; i<arr.length; i++){
+  //     if(newArray.includes(arr[i])){
+  //       ''
+  //     }
+  //     else{
+  //       newArray.push(arr[i])
+  //     }
+  //   }
+  //   return newArray
+  // }
+  // console.log(removeDuplicate([1,2,2,3,6,2,4,5]))
 }
 
 // intersection of two array
@@ -880,7 +880,7 @@
   // console.log(count('dhsheeccccd'))
 }
 
-// find first non repeated character 
+// find first non repeated character
 {
   // function nonRepeated(str){
   // let freq = {}
@@ -917,3 +917,108 @@
   // armstrong(163)
 }
 
+// find pair in given number
+{
+  //   function numberPair(number){
+  //     let arr = number.toString().split('')
+  //     for(let i = 0; i<arr.length; i++){
+  //       for(let j=  i+1; j<arr.length; j++){
+  //        console.log(`${arr[i]},${arr[j]}`)
+  //       }
+  //     }
+  //   }
+  //  numberPair(1234)
+}
+
+// find missing value in an array
+{
+  // function findValue(arr){
+  //   let missing = []
+  //   for(let i=0; i<arr.length; i++){
+  //     if(arr[i]<=arr[i+1]){
+  //       if(arr[i+1] === arr[i]+1){
+  //         ''
+  //       }
+  //       else{
+  //         missing.push(arr[i]+1)
+  //       }
+  //     }
+  //   }
+  //   console.log(missing)
+  // }
+  // findValue([1,2,3,4,6,8,10])
+}
+
+// count vowel and constant
+{
+  // function count(str) {
+  //   let string = str.toLowerCase()
+  //   let vowels = ["a", "e", "i", "o", "u"];
+  //   let freq = { vowel: 0, constant: 0 };
+  //   for (let i = 1; i <= string.length-1; i++) {
+  //     if (freq.constant !== 0 || freq.vowel !== 0) {
+  //       if (vowels.includes(string[i])) {
+  //         freq.vowel += 1;
+  //       } else {
+  //         freq.constant += 1;
+  //       }
+  //     } else {
+  //       freq.constant = 1;
+  //       freq.vowel = 1;
+  //     }
+  //   }
+  //   console.log(freq);
+  //   "ram".toLowerCase
+  // }
+  // count("abcdefghIjklmnopqrstuvwxyZ");
+}
+
+{
+  // function removeDuplicate(arr){
+  //   let newArray = []
+  //   for(let i =0; i<arr.length; i++){
+  //     newArray.push(arr[i])
+  //     for(let j = 0; j<newArray.length-1; j++){
+  //       if(arr[i]===newArray[j]){
+  //         newArray.pop(arr[j])
+  //       }
+  //     }
+  //     }
+  //     console.log(newArray)
+  //   }
+  // removeDuplicate(['a','b','c','d','a','e','f','z','j','b'])
+}
+
+{
+  // function countVowelAndConstant(str) {
+  //   let lowerCaseStr = str.toLowerCase();
+  //   let vowels = ["a", "e", "i", "o", "u"];
+  //   let freq = { vowel: 0, constant: 0 };
+  //   for (let char of lowerCaseStr) {
+  //     if (freq.constant !== 0 || freq.vowel !== 0) {
+  //       if (vowels.includes(char)) {
+  //         freq.vowel+= 1
+  //       }else{
+  //         console.log(freq)
+  //         freq.constant+= 1
+  //       }
+  //     }
+  //     else{
+  //       if(vowels.includes(char)){
+  //         freq.vowel = 1
+  //       }
+  //       freq.constant = 1
+  //     }
+  //   }
+  //   console.log(freq.vowel)
+  //   console.log(freq.constant)
+  // }
+  // countVowelAndConstant('abcdefghijk')
+}
+
+{
+  function reverse(str){
+    
+
+  }
+}
